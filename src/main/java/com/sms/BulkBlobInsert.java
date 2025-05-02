@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class BulkBlobInsert {
     private static final int BATCH_SIZE = 500;
-    private static final int TOTAL_RECORDS = 1_000_000;
+    private static final int TOTAL_RECORDS = 1000;
     private static final String FILE_PATH = "C:\\Users\\62853\\Downloads\\ORABLOB\\src\\main\\resources\\sample.xml";
 
     public static void main(String[] args) {
