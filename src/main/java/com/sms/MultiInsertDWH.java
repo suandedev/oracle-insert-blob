@@ -2,7 +2,7 @@ package com.sms;
 import java.io.*;
 import java.sql.*;
 
-public class BulkBlobInsert {
+public class MultiInsertDWH {
     private static final int BATCH_SIZE = 500;
     private static final int TOTAL_RECORDS = 10000;
     private static final String FILE_PATH = "C:\\Users\\62853\\Downloads\\ORABLOB\\src\\main\\resources\\sample.xml";
