@@ -7,7 +7,7 @@ public class ReadBlobFromOracle {
         String jdbcUrl = "jdbc:oracle:thin:@//localhost:1521/XE"; // Adjust as needed
         String username = "SYSTEM";
         String password = "root";
-        String recid = "REC_37"; // The RECID you want to read
+        String recid = "TEST_REC_0012"; // The RECID you want to read
 
         try (Connection conn = DriverManager.getConnection(jdbcUrl, username, password)) {
             String sql = "SELECT XMLRECORD FROM F_IDIT_DW000 WHERE RECID = ?";
